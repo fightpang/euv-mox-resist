@@ -33,7 +33,9 @@ conda activate matds_env
 To run the data acquisition notebook, you must configure your API key locally.
 
 *1. Go to [next.materialsproject.org/api](https://next.materialsproject.org/api) to create a free account and copy your API key.
+
 *2. Do not hardcode your API key in notebooks. As per the provided `.env.example` file, you need a `.env` file in the repository root.
+
 *3. Create it by copying the example file or running the following command in your terminal:
 
 ```bash
@@ -45,6 +47,7 @@ another method is Copy the provided .env.example file to a new file named .env.
 
 Open the .env file and replace the placeholder with your actual API key:
 MP_API_KEY="your_actual_api_key_here"
+
 (Note: The .env file is included in .gitignore and will never be committed to Git).
 
 
