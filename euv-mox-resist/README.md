@@ -16,12 +16,16 @@ To ensure reproducibility, please follow these setup steps on a clean machine:
 ```bash
 git clone [https://github.com/fightpang/euv-mox-resist.git](https://github.com/fightpang/euv-mox-resist.git)
 cd euv-mox-resist
+```
+
 
 **2. Set up the Conda environment**
 Create and activate the environment using the provided environment.yml file:
 
+```bash
 conda env create -f environment.yml
 conda activate matds_env
+```
 
 **3. Set up the Materials Project API Key securely**
 To run the data acquisition notebook, you must configure your API key locally.
