@@ -28,7 +28,14 @@ conda env create -f environment.yml
 conda activate matds_env
 ```
 
-**3. Set up the Materials Project API Key securely**
+**3. Launch JupyterLab**
+Once the environment is set up and the API key is configured, launch JupyterLab from the terminal:
+
+```bash
+jupyter lab
+```
+
+**4. Set up the Materials Project API Key securely**
 
 To run the data acquisition notebook, you must configure your API key locally.
 
@@ -44,6 +51,10 @@ echo "MP_API_KEY=your_actual_key_here" > .env
 ```
 
 (Note for Windows users: If you are using Windows PowerShell, the echo command may encode the file in UTF-16, causing reading errors in Python. In that case, please create the .env file manually using a text editor and save it with UTF-8 encoding.)
+
+
+
+
 
 
 ## 🚀 How to Run the Notebooks
