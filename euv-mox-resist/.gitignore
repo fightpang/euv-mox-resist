@@ -1,0 +1,18 @@
+# API Keys and Environment Variables
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Data Files (Exclude generated data to save space, >50MB rule)
+data/*.csv
+data/*.pkl
+data/*.h5
+
+# OS specific files
+.DS_Store
+Thumbs.db
