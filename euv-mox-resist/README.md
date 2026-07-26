@@ -32,7 +32,7 @@ Open the .env file and replace the placeholder with your actual API key:
 MP_API_KEY="your_actual_api_key_here"
 (Note: The .env file is included in .gitignore and will never be committed to Git).
 
-🚀 How to Run the Notebooks
+## 🚀 How to Run the Notebooks
 To fully reproduce this project, please execute the notebooks in the notebooks/ directory in the following exact order using Kernel → Restart & Run All:
 
 01_data_acquisition.ipynb: Queries the MP API for heavy metal oxides, applies thermodynamic stability (energy_above_hull < 0.1) and density filters, and saves the raw dataset.
@@ -43,7 +43,7 @@ To fully reproduce this project, please execute the notebooks in the notebooks/ 
 
 04_results_visualization.ipynb: Generates cross-validated parity plots, feature importance analyses, and the Pareto front to identify optimal EUV photoresist candidates.
 
-📈 Key Results & Optimal Candidates
+## 📈 Key Results & Optimal Candidates
 The Random Forest model trained exclusively on MAGPIE composition descriptors achieved a test-set MAE of 0.867 eV and an R² of 0.257 under rigorous cross-family GroupKFold validation.
 
 While the model demonstrated strong intra-family performance (R² ~ 0.58–0.78), the severe drop in cross-family generalization reveals a critical insight: composition-only descriptors are insufficient to capture the complex local coordination and crystal field splitting effects that uniquely govern different heavy metal cations.
