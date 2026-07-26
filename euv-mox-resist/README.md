@@ -14,7 +14,7 @@ To ensure reproducibility, please follow these setup steps on a clean machine:
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/fightpang/euv-mox-resist.git](https://github.com/fightpang/euv-mox-resist.git)
+git clone https://github.com/fightpang/euv-mox-resist.git
 cd euv-mox-resist
 ```
 
